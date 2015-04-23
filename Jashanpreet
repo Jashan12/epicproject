@@ -1,0 +1,21 @@
+
+Package githubproject;
+Import java.util.Scanner;
+Public class Githubproject{
+
+Public static void main (String[]args){
+
+Float Temperature;
+Scanner in= new Scanner(System.in);
+System.out.println(“Enter temperature in celcius”);
+Temperature=in.nextFloat();
+Temperature=9*Temperature/5+32;
+System.out.println(“Temperature in Fahrenheit = “+Temperature);
+
+//farrenheit to celcius
+System.out.println(“Enter temperature in Farrenheit”);
+Temperature=in.nextFloat();
+Temperature=(Temperature-32)*5/9;
+System.outprintln(“Temperature in Celcius=”+Temperature);
+}
+}
