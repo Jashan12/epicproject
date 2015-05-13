@@ -12,8 +12,8 @@ Temperature=in.nextFloat();
 Temperature=9*Temperature/5+32;
 System.out.println("Temperature in Fahrenheit =" +Temperature);
 
-//farrenheit to celcius
-System.out.println("Enter temperature in Farrenheit");
+//fahrenheit to celcius
+System.out.println("Enter temperature in Fahrenheit");
 Temperature=in.nextFloat();
 Temperature=(Temperature-32)*5/9;
 System.out.println("Temperature in Celcius="+Temperature);
